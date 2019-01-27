@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../images/logo.svg";
 const Footer = () => {
   return (
-    <footer className="text-light mt-5 pt-5 pb-5 footer">
+    <footer className="text-light mt-5 pt-5 pb-5 footer text-center text-md-left">
       <div className="container">
         <div className="row">
           <div className="col-4">
@@ -11,18 +11,18 @@ const Footer = () => {
 
           <div className="w-100 mt-4" />
 
-          <div className="col-12 col-sm-4">
+          <div className="col-12 col-sm-12 col-md-4">
             <div className="row">
-              <div className="col-2">
+              <div className="col-12 col-sm-12 col-md-2">
                 <i
                   style={{ fontSize: "2rem" }}
                   className="fab fa-facebook-square"
                 />
               </div>
-              <div className="col-2">
+              <div className="col-12 col-sm-12 col-md-2">
                 <i style={{ fontSize: "2rem" }} className="fab fa-instagram" />
               </div>
-              <div className="col-2">
+              <div className="col-12 col-sm-12 col-md-2">
                 <i
                   style={{ fontSize: "2rem" }}
                   className="fab fa-twitter-square"
@@ -34,23 +34,23 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-sm-8">
+          <div className="col-12 col-sm-12 col-md-8">
             <div className="row">
-              <div className="col-4">
+              <div className="col-12 col-sm-12 col-md-4">
                 <ul>
                   <li>About Us</li>
                   <li>What We Do</li>
                   <li>FAQ</li>
                 </ul>
               </div>
-              <div className="col-4">
+              <div className="col-12 col-sm-12 col-md-4">
                 <ul>
                   <li>Career</li>
                   <li>Blog</li>
                   <li>Contact Us</li>
                 </ul>
               </div>
-              <div className="col-4">
+              <div className="col-12 col-sm-12 col-md-4">
                 <form>
                   <h4>
                     <strong>SUSCRIBE</strong>
@@ -66,7 +66,7 @@ const Footer = () => {
                     placeholder="Email..."
                   />
                   <div className="form-row justify-content-end mt-2">
-                    <button type="submit" className="btn btn-primary">
+                    <button type="submit" className="btn btn-primary btn-block">
                       Suscribe
                     </button>
                   </div>

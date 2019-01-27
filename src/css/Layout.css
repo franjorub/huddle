@@ -58,3 +58,7 @@ body {
 nav {
   z-index: 9999999999999;
 }
+
+.footer li {
+  list-style: none;
+}

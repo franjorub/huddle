@@ -4,11 +4,11 @@ const Cover = () => {
   return (
     <div className="container-fluid mb-5 pb-5 cover">
       <div className="row justify-content-center background">
-        <div className="col-5">
+        <div className="col-12 col-sm-12 col-md-5">
           <img src={mockups} className="img-fluid" alt="illustration muckops" />
         </div>
         <div class="w-100" />
-        <div className="col-4 text-center mt-5">
+        <div className="col-12 col-sm-12 col-md-4 text-center mt-5">
           <h4 className="pb-3">
             <strong>Build The Community Your Fans Will Love</strong>
           </h4>

@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <nav className="navbar p-5 mb-4">
       <a href="#" className="navbar-brand">
-        <img src={logo} alt="huddle logo" />
+        <img src={logo} alt="huddle logo" className="img-fluid" />
       </a>
       <button type="button" className="btn btn-light">
         Try it out

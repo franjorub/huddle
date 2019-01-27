@@ -4,10 +4,10 @@ const Description = () => {
   return (
     <div className="container mt-5 pt-5 mb-5 pb-5">
       <div className="row">
-        <div className="col-12 col-sm-6">
+        <div className="col-12  col-sm-12 col-md-6 mb-4">
           <img src={users} className="img-fluid" alt="users" />
         </div>
-        <div className="col-12 col-sm-5 offset-0 offset-sm-1">
+        <div className="col-12 col-sm-12 col-md-5 offset-0 offset-sm-0 offset-md-1 text-center text-md-left">
           <h4 className="pb-1">
             <strong>Flowing Conversations</strong>
           </h4>
