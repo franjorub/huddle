@@ -2,7 +2,7 @@ import React from "react";
 import mockups from "../images/illustration-mockups.svg";
 const Cover = () => {
   return (
-    <div className="container">
+    <div className="container mb-5 pb-5">
       <div className="row justify-content-center">
         <div className="col-6">
           <img src={mockups} className="img-fluid" alt="illustration muckops" />

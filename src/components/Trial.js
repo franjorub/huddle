@@ -2,7 +2,7 @@ import React from "react";
 import "../css/Trial.css";
 const Trial = () => {
   return (
-    <div className="container mt-5 pt-5">
+    <div className="container mt-5 pt-5 pb-5 mb-5">
       <div className="row justify-content-center">
         <div className="col-8">
           <div className="card p-5 box">
