@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/logo.svg";
+import logo from "../images/logo-white.svg";
 const Footer = () => {
   return (
     <footer className="text-light mt-5 pt-5 pb-5 footer text-center text-md-left">
