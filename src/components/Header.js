@@ -3,7 +3,7 @@ import React from "react";
 import logo from "../images/logo.svg";
 const Header = () => {
   return (
-    <nav className="navbar p-4 mb-5">
+    <nav className="navbar p-5 mb-5">
       <a href="#" className="navbar-brand">
         <img src={logo} alt="huddle logo" />
       </a>
